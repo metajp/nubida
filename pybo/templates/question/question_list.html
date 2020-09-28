@@ -28,7 +28,7 @@
         {% endfor %}
         {% else %}
         <tr>
-            <td colspan="3">질문이 없습니다.</td>
+            <td colspan="3">퀘스트가 없습니다.</td>
         </tr>
         {% endif %}
         </tbody>
@@ -75,7 +75,7 @@
     </ul>
     <!-- 페이징처리 끝 -->
 
-    <a href="{{ url_for('question.create') }}" class="btn btn-primary">질문 등록하기</a>
+    <a href="{{ url_for('question.create') }}" class="btn btn-primary">퀘스트 등록하기</a>
 </div>
 
 {% endblock %}
